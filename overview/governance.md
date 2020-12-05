@@ -29,4 +29,3 @@ Once then pending period ends, the lockup can be withdrew regardless of the outc
 Once a proposal becomes a referendum, a `Referendum_period` will begin. During the period, token holders can vote by creating a `Vote` transaction. By doing so, the token holder is signaling yay or nay on the proposal with the voting power proportional to their wallet balance. Once a vote is finalized, anyone can call the smart contract to tally the vote and reach a decision. However, if the final yay vote does not pass the `Minimum_yes_requirement`, the referendum is considered fail due to the lack of participation. Like `Minimum_referendum_requirement`, the `Minimum_yes_requirement` is based on a percentage of the token's circulating supply.
 
 If a proposal is successfully voted into implementation, then the smart contract will enforce the decision deterministically.
-
