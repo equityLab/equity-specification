@@ -18,7 +18,7 @@ The following is the underlying process involved in transferring ETH/ERC-20 toke
 
 This process is abstracted away from the end user, who simply needs to transfer their ETH/ERC-20 to the Equity Peg Zone contract.
 
-![](../.gitbook/assets/inj-peg.png)
+![](../.gitbook/assets/EQT-peg.png)
 
 On a high level, the transfer flow is as follows:
 
