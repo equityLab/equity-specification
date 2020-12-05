@@ -51,7 +51,7 @@ The specification for this API can be found [here](architecture.md).
 
 ## Equity Contracts
 
-Equity Protocol is token-based protocol which is inextricably tied to the INJ token \(an ERC-20 token\). As such, key components of protocol interactions and token economics are implemented through the following smart contracts: 
+Equity Protocol is token-based protocol which is inextricably tied to the EQT token \(an ERC-20 token\). As such, key components of protocol interactions and token economics are implemented through the following smart contracts: 
 
 **Equity Coordinator Contract**   
 The Equity's Coordinator Contract services both 0x-based orders as well as Equity's derivative transactions on Ethereum as well as on the Equity Chain. 
@@ -66,7 +66,7 @@ The Equity Futures Protocol encompasses a suite of smart contracts. Comprehensiv
 The Equity Bridge Contracts encompass a suite of smart contracts managing the two-way peg between Ethereum and the Equity Chain. More details can be found [here](https://github.com/EquityLabs/Equity-core). 
 
 **Equity Token Contract**  
-The Equity Token Contract is an ERC-20 contract for the INJ token.
+The Equity Token Contract is an ERC-20 contract for the EQT token.
 
 ## Frontend Interface
 
